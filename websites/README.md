@@ -5,7 +5,7 @@ These demo sites are located under `/websites/` and reuse the existing root site
 | Path | Concept |
 | --- | --- |
 | [time-tickin-fashions](./time-tickin-fashions/) | Time Tickin Fashions — Storefront |
-| [reanezmays](./reanezmays/) | Raenezmay's — Storefront |
+| [reanezmays](./reanezmays/) | Reanezmays — Storefront |
 | [pretty-little-feet](./pretty-little-feet/) | PLF · Pretty Little Feet's — Storefront |
 | [food-accelerator](./food-accelerator/) | Food Access Accelerator — Dashboard |
 | [music-app](./music-app/) | Soundwave Studio — Dashboard |
