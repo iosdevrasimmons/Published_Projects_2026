@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111f2d">
+<meta name="description" content="Simmons Advanced Technologies Group — custom iOS app development and digital experiences. Explore the Food Access Accelerator CRM concept.">
+<title>Simmons Advanced Technologies Group | iOS Apps & Digital Solutions</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='13' fill='%23121f2d'/%3E%3Ctext x='32' y='42' fill='%23b8dcf3' font-family='Arial' font-size='26' text-anchor='middle' font-weight='bold'%3ES%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+<header class="topbar">
+  <nav class="container nav" aria-label="Main navigation">
+    <a class="logo" href="#home" aria-label="Simmons Advanced Technologies Group home">
+      <span class="logo-mark" aria-hidden="true">S.</span>
+      <span>SIMMONS ADVANCED<br>TECHNOLOGIES GROUP</span>
+    </a>
+    <div class="nav-links">
+      <a href="#solutions">Solutions</a><a href="#demo">Live preview</a><a href="#about">About</a>
+      <a class="nav-cta" href="#contact">Work with us</a>
+    </div>
+  </nav>
+</header>
+<main id="main">
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Independent iOS development studio</div>
+      <h1>Technology built for real-world impact.</h1>
+      <p>Custom mobile experiences, practical business tools, and thoughtful design for entrepreneurs, organizations, and the communities they serve.</p>
+      <div class="buttons">
+        <a class="btn btn-primary" href="#demo">Explore the CRM preview <span aria-hidden="true">↗</span></a>
+        <a class="btn btn-outline" href="#solutions">View our approach</a>
+      </div>
+      <div class="hero-small">Michigan-based · SwiftUI · CRM workflows · Product design</div>
+    </div>
+    <div class="hero-device" aria-label="Illustrative Food Access Accelerator dashboard mockup">
+      <div class="device-header"><span>Food Access Accelerator</span><span class="dots" aria-hidden="true">● ● ●</span></div>
+      <div class="device-body">
+        <div class="mini-kicker">Concept dashboard · Sample data</div>
+        <div class="mini-title">A clearer view of impact.</div>
+        <div class="metric-grid">
+          <div class="metric"><div class="value">48</div><div class="label">Example partners</div></div>
+          <div class="metric"><div class="value">12.4k</div><div class="label">Illustrative meals</div></div>
+        </div>
+        <div class="mini-panel">
+          <div class="mini-heading">Restaurant pipeline preview</div>
+          <div class="mini-row"><span>New prospects</span><span class="pill">Lead capture</span></div>
+          <div class="mini-row"><span>Enrollment guidance</span><span class="pill">Resources</span></div>
+          <div class="mini-row"><span>Regional reporting</span><span class="pill">Analytics</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="solutions" class="section">
+  <div class="container">
+    <div class="section-head"><div class="label-top">What we build</div><h2>Purposeful software. Clearly presented.</h2>
+      <p>Mobile app design and development centered on practical workflows, accessible interfaces, and scalable ideas.</p>
+    </div>
+    <div class="feature-grid">
+      <article class="feature"><span class="symbol" aria-hidden="true">▦</span><h3>Custom iOS experiences</h3><p>Structured SwiftUI apps for businesses, founders, and growing services, designed for straightforward navigation.</p></article>
+      <article class="feature"><span class="symbol" aria-hidden="true">◈</span><h3>Customer workflows</h3><p>CRM concepts for managing contacts, tracking opportunities, coordinating next steps, and simplifying everyday work.</p></article>
+      <article class="feature"><span class="symbol" aria-hidden="true">▥</span><h3>Data and dashboards</h3><p>Readable dashboards and report prototypes that help teams understand operations and plan next actions.</p></article>
+    </div>
+  </div>
+</section>
+<section class="section demo-section" id="demo">
+  <div class="container">
+    <div class="section-head"><div class="label-top">Featured project concept</div><h2>Food Access Accelerator</h2>
+      <p>A proposed CRM and food-access program dashboard connecting restaurant outreach, public information, and potential aggregate reporting.</p>
+    </div>
+    <div class="demo-shell">
+      <div class="demo-titlebar"><span>FOOD ACCESS / PRODUCT PREVIEW</span><span>Interactive website demonstration</span></div>
+      <div class="tabbar" role="tablist" aria-label="Preview features">
+        <button type="button" class="tab" data-tab="crm" id="tab-crm" role="tab" aria-controls="panel-crm" aria-selected="true">CRM Pipeline</button>
+        <button type="button" class="tab" data-tab="food" id="tab-food" role="tab" aria-controls="panel-food" aria-selected="false">Find Food</button>
+        <button type="button" class="tab" data-tab="partners" id="tab-partners" role="tab" aria-controls="panel-partners" aria-selected="false">Restaurant Hub</button>
+        <button type="button" class="tab" data-tab="insights" id="tab-insights" role="tab" aria-controls="panel-insights" aria-selected="false">Insights</button>
+      </div>
+      <section class="panel" id="panel-crm" role="tabpanel" data-panel="crm" aria-labelledby="tab-crm">
+        <div class="panel-h"><div><h3>Restaurant prospect pipeline</h3><p>Click a status to advance a fictional restaurant through the pipeline.</p></div><span class="tag"><span id="lead-count">03</span> DEMO RECORDS</span></div>
+        <div class="lead-list" id="leads" aria-live="polite"></div>
+        <div style="margin-top:18px"><button id="add-sample" type="button" class="text-btn">+ Add sample lead</button></div>
+        <div class="notice">Browser-only sample interactions. Entries are fictional, are not submitted or saved, and reset on refresh.</div>
+      </section>
+      <section class="panel" id="panel-food" role="tabpanel" data-panel="food" aria-labelledby="tab-food" hidden>
+        <div class="panel-h"><div><h3>Explore food access resources</h3><p>Find Michigan's official Restaurant Meal Program information.</p></div><span class="tag">OFFICIAL EXTERNAL LINK</span></div>
+        <div class="demo-cols">
+          <div class="info-card"><strong>Participating restaurant directory</strong><p>Use Michigan's official directory and map for confirmed program locations.</p><a href="https://www.michigan.gov/mdhhs/assistance-programs/food/restaurant-meal-program" target="_blank" rel="noopener noreferrer">Visit Michigan RMP information ↗</a></div>
+          <div class="info-card"><strong>Eligibility guidance</strong><p>Eligibility is determined by program rules and relevant agencies, not this website.</p><a href="https://www.michigan.gov/mdhhs/assistance-programs/food/restaurant-meal-program" target="_blank" rel="noopener noreferrer">Review official criteria ↗</a></div>
+        </div>
+        <div class="notice">No live restaurant data or eligibility determination is provided here.</div>
+      </section>
+      <section class="panel" id="panel-partners" role="tabpanel" data-panel="partners" aria-labelledby="tab-partners" hidden>
+        <div class="panel-h"><div><h3>Restaurant onboarding resources</h3><p>Guided steps for prospective restaurant partners.</p></div><span class="tag">EDUCATIONAL GUIDANCE</span></div>
+        <div class="demo-cols">
+          <div class="info-card"><strong>01. Review program requirements</strong><p>Learn about restaurant participation and applicable program conditions.</p></div>
+          <div class="info-card"><strong>02. Apply through official agencies</strong><p>Restaurant authorization and applications remain with MDHHS and USDA FNS.</p></div>
+          <div class="info-card"><strong>03. Prepare operations</strong><p>Review staffing, service, and POS considerations before launch.</p></div>
+          <div class="info-card"><strong>04. Track internal progress</strong><p>Use a future CRM to manage reminders and training—not to replace formal approval.</p></div>
+        </div>
+        <div class="notice">This independent site is not affiliated with MDHHS or USDA and does not enroll restaurants.</div>
+      </section>
+      <section class="panel" id="panel-insights" role="tabpanel" data-panel="insights" aria-labelledby="tab-insights" hidden>
+        <div class="panel-h"><div><h3>Potential public-sector insights</h3><p>Illustrative visualizations only; figures are fictional.</p></div><button type="button" class="text-btn" id="download-report">Download sample CSV</button></div>
+        <div class="demo-cols">
+          <div class="info-card"><strong>Regional coverage illustration</strong>
+            <div class="bars"><div><div class="bar-label"><span>Region A</span><span>75%</span></div><div class="bar-track"><div class="bar-fill" style="width:75%"></div></div></div>
+            <div><div class="bar-label"><span>Region B</span><span>52%</span></div><div class="bar-track"><div class="bar-fill" style="width:52%"></div></div></div>
+            <div><div class="bar-label"><span>Region C</span><span>38%</span></div><div class="bar-track"><div class="bar-fill" style="width:38%"></div></div></div></div>
+          </div>
+          <div class="info-card"><strong>Reporting opportunities</strong><p>Proposed metrics include program reach, restaurant participation, area coverage, and trends over time.</p><p>Actual analytics require authorized data sources, confidentiality safeguards, and an agency agreement.</p></div>
+        </div>
+        <div class="notice">Values, regions, and sample report data are fictional and not official government statistics.</div>
+      </section>
+    </div>
+    <p class="screen-note">The interactive preview is a static website sample. It does not provide the native SwiftUI app, live agency systems, actual subscriptions, or secure accounts.</p>
+  </div>
+</section>
+<section id="about" class="section about-band">
+  <div class="container about-grid">
+    <div><div class="eyebrow">Built with intent</div><h2>From a concept to a usable experience.</h2><p>Simmons Advanced Technologies Group develops practical digital experiences and tailored app concepts. Each project begins with the people it serves and the workflows it needs to support.</p></div>
+    <div class="about-points">
+      <div class="about-point"><span class="checkmark" aria-hidden="true">✓</span> Clear layouts with thoughtful interaction</div>
+      <div class="about-point"><span class="checkmark" aria-hidden="true">✓</span> Prototype-first product development</div>
+      <div class="about-point"><span class="checkmark" aria-hidden="true">✓</span> Simple interfaces for complex business needs</div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="section">
+  <div class="container"><div class="section-head"><div class="label-top">Let’s discuss your idea</div><h2>Build something useful.</h2><p>Interested in a custom iOS application or digital prototype? Explore our developer profile and available project work.</p></div>
+  <a class="btn" style="background:#111f2d;color:#fff" href="https://github.com/iosdevrasimmons" target="_blank" rel="noopener noreferrer">View our GitHub profile ↗</a>
+  <p class="screen-note">Direct contact details can be added once approved.</p>
+  </div>
+</section>
+</main>
+<footer class="footer"><div class="container foot-grid"><span><strong>Simmons Advanced Technologies Group</strong> · Michigan</span><span>Independent project showcase · <a href="#home">Back to top ↑</a></span></div></footer>
+<script src="script.js" defer></script>
+</body>
+</html>

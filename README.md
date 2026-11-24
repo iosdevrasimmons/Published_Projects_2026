@@ -1,33 +1,37 @@
-# Simmons Advanced Technologies Group — Website
+# McFarlands Shopping App — Website
 
-A free, static business website built for GitHub Pages.
+The GitHub Pages root now hosts the public McFarlands website and the customer-facing information pages used by the iOS app.
 
-## Website
+Website URL: https://iosdevrasimmons.github.io/Published_Projects_2026/
 
-When GitHub Pages is enabled, the site will be available at:
+## App Store Connect URLs
+- Privacy Policy: https://iosdevrasimmons.github.io/Published_Projects_2026/privacy.html
+- Support: https://iosdevrasimmons.github.io/Published_Projects_2026/support.html
+- Terms: https://iosdevrasimmons.github.io/Published_Projects_2026/terms.html
+- Shipping and Returns: https://iosdevrasimmons.github.io/Published_Projects_2026/shipping-returns.html
+- Accessibility: https://iosdevrasimmons.github.io/Published_Projects_2026/accessibility.html
 
-https://iosdevrasimmons.github.io/Published_Projects_2026/
+## Website structure
+- index.html — brand, Jewel McFarland's book, apparel collection previews
+- styles.css — royal-blue/purple responsive design
+- script.js — accessible navigation and verified collection cover images
+- assets/ — add original local photographs here when uploading the source assets
+- atg/ — archived copy of the previously published Advanced Technologies Group website
+- websites/ — existing published project examples are preserved
 
-## How to enable free GitHub Pages
+## Original photo assets to upload
+- assets/BookImage.jpg
+- assets/JewelProfileCTA.jpg
+- assets/RaenezmayCTA.jpg
+- assets/SweatersCTA.jpg
+- assets/TShirtsCTA.jpg
 
-1. Open https://github.com/iosdevrasimmons/Published_Projects_2026/settings/pages
-2. In **Build and deployment**, set **Source** to **Deploy from a branch**.
-3. Select **main** and **/(root)**.
-4. Click **Save**.
-5. Check the public website link above. GitHub may take several minutes to publish.
+The HTML intentionally hides a missing image and retains its designed background until the corresponding asset is uploaded. Do not publish images without the owner's permission.
 
-## Files
+## Payment separation
+Physical apparel purchases are completed in the iPhone app using Stripe Checkout. The digital book is a StoreKit non-consumable In-App Purchase, not a Stripe digital-book checkout.
 
-- `index.html` — responsive site and interactive project preview.
-- `styles.css` — black, white, baby-blue, and silver design system.
-- `script.js` — sample CRM lead-stage interaction and sample CSV download.
+## Important release notes
+The support address used in the site is the developer account contact email. Verify it is approved for McFarlands customer and privacy support before app submission. Confirm that the public policy text matches the final backend's actual data handling and applicable law. The website itself is static and does not create checkout sessions or collect card information.
 
-## Limits
-
-This is a **static public website**, not a hosted SwiftUI iOS app. It does not run the actual iOS CRM, maintain a cloud database, accept payments, or process restaurant enrollment. Demonstration values are fictional. For an iPhone app preview, distribute a separately built iOS app through TestFlight.
-
-## Privacy
-
-Do not commit passwords, API keys, private customer data, or proprietary unapproved client materials to this public repository.
-
-© Simmons Advanced Technologies Group.
+GitHub Pages: Settings > Pages > Deploy from a branch > main > /(root).
